@@ -28,7 +28,7 @@ public class JenkinsMapsSample {
      Iterator it = null;
      List results = new ArrayList();
      if (keyList != null)
-      it = keyList.getIterator();
+      it = keyList.iterator();
      else
       return new ArrayList();
     
