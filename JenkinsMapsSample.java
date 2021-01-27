@@ -9,7 +9,7 @@ public class JenkinsMapsSample {
    Map m;
    
    public JenkinsMapsSample(){
-    m = new HashMap;
+    m = new HashMap();
    }
    
    public void initMap(){
@@ -28,14 +28,14 @@ public class JenkinsMapsSample {
      Iterator it = null;
      List results = new ArrayList();
      if (keyList != null)
-      Iterator it = keyList.getIterator();
+      it = keyList.getIterator();
      else
       return new ArrayList();
     
      String item = "";
      while(it.hasNext()){
       item = (String)it.next();
-      results.add(  Integer.parseInt( (m.get(item)!=null) ? item : "0") )  );
+      results.add(  Integer.parseInt( (m.get(item)!=null) ? item : "0" )  );
      }
      return results;
    }
