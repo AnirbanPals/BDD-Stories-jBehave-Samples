@@ -12,7 +12,7 @@ public class JenkinsMapsSample {
     m = new HashMap();
    }
    
-   publi void initMap(){
+   public void initMap(){
     m.put("one",1);
     m.put("two",2);
     m.put("three",3);
